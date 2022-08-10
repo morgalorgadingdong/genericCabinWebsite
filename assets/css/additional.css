@@ -244,3 +244,7 @@ thead td {
   background-size: contain;
   cursor:default;
 }
+
+.gridPhoto:hover {
+  cursor: pointer;
+}
