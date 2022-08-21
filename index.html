@@ -121,40 +121,40 @@
 							<div class="col-4"><span class="image fit"><img src="images/cabin-11.jpg" class="gridPhoto" alt="" loading="lazy" onclick="location.href='#img11'"/></span></div>
 							<div class="col-4"><span class="image fit"><img src="images/cabin-12.jpg" class="gridPhoto" alt="" loading="lazy" onclick="location.href='#img12'"/></span></div>
 						</div>
-						<a href="#gridPhotoContainer" class="lightbox" id="img2">
+						<a onclick="hide(this)" class="lightbox" id="img2">
 							<span style="background-image: url('images/cabin-2.jpg');" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img3">
+						<a onclick="hide(this)" class="lightbox" id="img3">
 							<span style="background-image: url('images/cabin-3.jpg');" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img1">
+						<a onclick="hide(this)" class="lightbox" id="img1">
 							<span style="background-image: url('images/cabin-1.jpg');" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img4">
+						<a onclick="hide(this)" class="lightbox" id="img4">
 							<span style="background-image: url('images/cabin-4.jpg')" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img5">
+						<a onclick="hide(this)" class="lightbox" id="img5">
 							<span style="background-image: url('images/cabin-5.jpg')" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img6">
+						<a onclick="hide(this)" class="lightbox" id="img6">
 							<span style="background-image: url('images/cabin-6.jpg')" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img7">
+						<a onclick="hide(this)" class="lightbox" id="img7">
 							<span style="background-image: url('images/cabin-7.jpg')" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img8">
+						<a onclick="hide(this)" class="lightbox" id="img8">
 							<span style="background-image: url('images/cabin-8.jpg')" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img9">
+						<a onclick="hide(this)" class="lightbox" id="img9">
 							<span style="background-image: url('images/cabin-9.jpg')" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img10">
+						<a onclick="hide(this)" class="lightbox" id="img10">
 							<span style="background-image: url('images/cabin-10.jpg')" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img11">
+						<a onclick="hide(this)" class="lightbox" id="img11">
 							<span style="background-image: url('images/cabin-11.jpg')" loading="lazy"></span>
 						</a>
-						<a href="#gridPhotoContainer" class="lightbox" id="img12">
+						<a onclick="hide(this)" class="lightbox" id="img12">
 							<span style="background-image: url('images/cabin-12.jpg')" loading="lazy"></span>
 						</a>
 					</div>
@@ -207,6 +207,11 @@
 			</div>
 
 		<!-- Scripts -->
+		<script>
+			function hide(e) {
+				e.style.display = "none";
+			}
+			</script>
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
